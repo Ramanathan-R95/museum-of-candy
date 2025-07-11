@@ -1,0 +1,51 @@
+body{
+    font-family:"Oswald", sans-serif;
+    background-color: #F33A6A;
+}
+#main-navbar{
+    background-color: #FFB6C1;
+    
+}
+@media(min-width:576px){
+    #main-navbar{
+        height: 55px;
+    }
+    
+    
+}
+@media(min-width:726px){
+    p{
+        line-height: normal;
+    }
+}
+#main-navbar .navbar-brand{
+    color:white;
+}
+#main-navbar .nav-link{
+    color:	#ab797c;
+    transition: all 0.1s ,border-bottom 0.1s;
+    transition-timing-function: ease-in-out;
+}
+#main-navbar .nav-link:hover{
+    border-bottom: 2px solid white;
+    color:#ff7da0;
+}
+#museum{
+    background-color: white;
+}
+#icon{
+    width: 60px;
+}
+.content h1{
+    font-weight: 100;
+    color:#03055b;
+
+}
+.content p{
+    font-weight: 100;
+    line-height: 2;
+}
+.content{
+    margin-top: 100px;
+}
+
